@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .cardsContainers {
+        margin-top: 10rem;
+
+        display: grid;
+        grid-template-columns: 20% 20% 20%;
+        gap: 5rem;
+        align-items: center;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,18 @@
+.container {
+    background-color: #f7fbff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    gap: .5rem;
+
+    height: 20rem;
+    width: 85%;
+    
+    text-align: center;
+    .buttonContainer {
+        margin-top: 2rem;
+    }
+}
